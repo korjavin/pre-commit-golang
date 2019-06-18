@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec go build
+exec go -mod=vendor build -v
